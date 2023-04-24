@@ -1,0 +1,87 @@
+body {
+    margin-top: 120px;
+    background-color: rgba(240, 240, 240, 0.933);
+    font-family:"Roboto";
+
+  }
+  nav{
+    background-color: #FFE277;
+    
+  }    
+  a{
+    text-decoration:none;
+    color:#FFC900;
+    font-size:18px;
+}
+  @media (min-width: 991.98px) {
+    main {
+      padding-left: 240px;
+    }
+  }
+  .list-group-flush  > .list-group-item{
+    background-color:#FFC900 ;
+    color:black;
+  }
+  .list-group-item{
+    background-color: #FFC900;
+    color:black;
+    border: none;
+  }
+  li{
+    list-style-type: none;
+    color:black;
+  }
+  .list-group-item:hover{
+    background-color: #FCD546;
+    color:black;
+  }
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 70px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    z-index: 600;
+  }
+  
+
+  .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  .navbar-brand{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 26px;
+  }
+  .pagination{
+    background-color: white;
+  }
+  .bg-transparent{
+    background-color: black;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #5B7099;
+    padding: 5px;
+  }
+  .btn-primary{
+    background-color: #FCD546;
+    border-color: #FCD546;
+    margin-bottom: 20px;
+    color:black;
+  }
+  .btn-primary:hover{
+    background-color: #FFC900;
+    border-color: #FFC900;
+  }
